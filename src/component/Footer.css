@@ -1,0 +1,53 @@
+#first-text {
+  font-size: 18px;
+}
+#second-text {
+  color: gray;
+  margin-top: 10px;
+}
+#third-text {
+  margin-top: 10px;
+  width: 170px;
+  color: gray;
+}
+.second {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#p-text {
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+  padding-right: 4px;
+}
+#pbtn {
+  background-color: white;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+#pbtn:active,
+#pbtn:hover {
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+.payment-method {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.payment,
+.copyright {
+  margin-top: 15px;
+}
+.brandName {
+  width: 100px;
+}
+@media (max-width: 668px) {
+  .payment-image {
+    width: 97%;
+  }
+}
